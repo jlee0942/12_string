@@ -5,13 +5,9 @@
 
 int main(int argc, char *argv[]) {
 	
-	char src[]="The worst thigns to eat before you sleep";
-	char dst[100];
+	char str[30]="happy C programming";
 	
-	strcpy(dst, src);
-	
-	printf("copied string:%s", dst);
-	
+	printf("length of string \"%s\":%i", str, strlen(str));
 	 
 	return 0;
 }
